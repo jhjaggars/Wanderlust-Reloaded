@@ -121,3 +121,58 @@ recipes.addShaped(acclimEU,
   [[glassPane,gearBronze,glassPane],
    [<Forestry:chipsets:1>,<Genetics:misc>,<Forestry:chipsets:1>],
    [<minecraft:water_bucket>,ic2Circuit,<minecraft:water_bucket>]]);
+
+#### LumberMill
+recipes.remove(<ExtraTrees:machine:0>);
+var lumberRF = <ExtraTrees:machine:0>.withTag({"power-system": 1 as byte}) * 1;
+recipes.addShaped(lumberRF,
+  [[<ExtraTrees:misc:3>,<minecraft:iron_axe>,<ExtraTrees:misc:3>],
+   [glassBlock,<Forestry:sturdyMachine>,glassBlock],
+   [<ExtraTrees:misc:3>,<ThermalExpansion:material:1>,<ExtraTrees:misc:3>]]);
+var lumberEU = <ExtraTrees:machine:0>.withTag({"power-system": 2 as byte}) * 1;
+recipes.addShaped(lumberEU,
+  [[<ExtraTrees:misc:3>,<minecraft:iron_axe>,<ExtraTrees:misc:3>],
+   [glassBlock,<Forestry:sturdyMachine>,glassBlock],
+   [<ExtraTrees:misc:3>,ic2Circuit,<ExtraTrees:misc:3>]]);
+   
+#### Fruit Press
+recipes.remove(<ExtraTrees:machine:4>);
+var fruitRF = <ExtraTrees:machine:4>.withTag({"power-system": 1 as byte}) * 1;
+recipes.addShaped(fruitRF,
+  [[<minecraft:iron_ingot>,glassBlock,<minecraft:iron_ingot>],
+   [<ore:ingotTin>,<Forestry:sturdyMachine>,<ore:ingotTin>],
+   [<ore:ingotTin>,<ThermalExpansion:material:1>,<ore:ingotTin>]]);
+var fruitEU = <ExtraTrees:machine:4>.withTag({"power-system": 2 as byte}) * 1;
+recipes.addShaped(fruitEU,
+  [[<minecraft:iron_ingot>,glassBlock,<minecraft:iron_ingot>],
+   [<ore:ingotTin>,<Forestry:sturdyMachine>,<ore:ingotTin>],
+   [<ore:ingotTin>,ic2Circuit,<ore:ingotTin>]]);
+   
+#### Brewery
+recipes.remove(<ExtraTrees:machine:5>);
+var brewRF = <ExtraTrees:machine:5>.withTag({"power-system": 1 as byte}) * 1;
+recipes.addShaped(brewRF,
+  [[gearBronze,glassBlock,gearBronze],
+   [<minecraft:iron_ingot>,<Forestry:sturdyMachine>,<minecraft:iron_ingot>],
+   [gearBronze,<ThermalExpansion:material:1>,gearBronze]]);
+var brewEU = <ExtraTrees:machine:5>.withTag({"power-system": 2 as byte}) * 1;
+recipes.addShaped(brewEU,
+  [[gearBronze,glassBlock,gearBronze],
+   [<minecraft:iron_ingot>,<Forestry:sturdyMachine>,<minecraft:iron_ingot>],
+   [gearBronze,ic2Circuit,gearBronze]]);
+   
+#### Distillery
+recipes.remove(<ExtraTrees:machine:6>);
+var distillRF = <ExtraTrees:machine:6>.withTag({"power-system": 1 as byte}) * 1;
+recipes.addShaped(distillRF,
+  [[<minecraft:redstone>,glassBlock,<minecraft:redstone>],
+   [<minecraft:iron_ingot>,<Forestry:sturdyMachine>,<minecraft:iron_ingot>],
+   [<minecraft:redstone>,<ThermalExpansion:material:1>,<minecraft:redstone>]]);
+var distillEU = <ExtraTrees:machine:6>.withTag({"power-system": 2 as byte}) * 1;
+recipes.addShaped(distillEU,
+  [[<minecraft:redstone>,glassBlock,<minecraft:redstone>],
+   [<minecraft:iron_ingot>,<Forestry:sturdyMachine>,<minecraft:iron_ingot>],
+   [<minecraft:redstone>,ic2Circuit,<minecraft:redstone>]]);
+
+#### Remove the Nursery (Invalid object, screws NEI results, can cause crash
+recipes.remove(<ExtraTrees:machine:3>);
