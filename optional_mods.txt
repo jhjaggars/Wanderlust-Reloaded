@@ -1,0 +1,19 @@
+Mods that need to be disabled once packing up final version:
+ Client and Server:
+ -AdminCommandToolbox
+ -Bluepower
+ -ProjectRed/Blue
+ -WorldEdit Forge
+ -Industrialcraft 2
+  ->Nuclear Control 2
+  ->Gravisuite
+ -MobiusCore
+  ->Opis
+ -YABM
+ -Modular Turrets
+ -iChunUtils
+  ->Hats
+ -Chococraft
+ 
+ Client: 
+ -Journeymap
