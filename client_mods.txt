@@ -6,5 +6,4 @@ These mods need to be removed from the server.zip:
 -NEIPlugins(Integration soon)
 -NEIAddons
 -TiC Tooltips
--WAILA
- ->WAILA Harvestability
+-WAILA Harvestability
