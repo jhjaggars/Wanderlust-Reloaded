@@ -13,7 +13,6 @@ Mods that need to be disabled once packing up final version:
  -Modular Turrets
  -iChunUtils
   ->Hats
- -Chococraft
  
  Client: 
  -Journeymap
