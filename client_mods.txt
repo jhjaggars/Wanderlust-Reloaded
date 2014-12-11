@@ -7,4 +7,4 @@ These mods need to be removed from the server.zip:
 -NEIAddons
 -TiC Tooltips
 -WAILA Harvestability
--WTF
+-WTP
