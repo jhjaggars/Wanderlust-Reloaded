@@ -2,34 +2,14 @@
 recipes.remove(<ComputerCraft:CC-Computer>);
 recipes.addShaped(<ComputerCraft:CC-Computer>,
  [[<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>],
-  [<minecraft:heavy_weighted_pressure_plate>, <Mekanism:ControlCircuit>, <minecraft:heavy_weighted_pressure_plate>],
-  [<minecraft:heavy_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:heavy_weighted_pressure_plate>]]);
-  
-recipes.addShaped(<ComputerCraft:CC-Computer>,
- [[<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>],
-  [<minecraft:heavy_weighted_pressure_plate>, <MineFactoryReloaded:upgrade.logic>, <minecraft:heavy_weighted_pressure_plate>],
-  [<minecraft:heavy_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:heavy_weighted_pressure_plate>]]);
-  
-recipes.addShaped(<ComputerCraft:CC-Computer>,
- [[<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>],
-  [<minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:item.ItemMultiMaterial:23>, <minecraft:heavy_weighted_pressure_plate>],
+  [<minecraft:heavy_weighted_pressure_plate>, <ore:circuitTone>, <minecraft:heavy_weighted_pressure_plate>],
   [<minecraft:heavy_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:heavy_weighted_pressure_plate>]]);
   
 #Harder recipe for advanced Computer
 recipes.remove(<ComputerCraft:CC-Computer:16384>);
 recipes.addShaped(<ComputerCraft:CC-Computer:16384>,
  [[<minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>],
-  [<minecraft:light_weighted_pressure_plate>, <Mekanism:ControlCircuit:1>, <minecraft:light_weighted_pressure_plate>],
-  [<minecraft:light_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:light_weighted_pressure_plate>]]);
-  
-recipes.addShaped(<ComputerCraft:CC-Computer:16384>,
- [[<minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>],
-  [<minecraft:light_weighted_pressure_plate>, <MineFactoryReloaded:upgrade.logic:1>, <minecraft:light_weighted_pressure_plate>],
-  [<minecraft:light_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:light_weighted_pressure_plate>]]);
-  
-recipes.addShaped(<ComputerCraft:CC-Computer:16384>,
- [[<minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>],
-  [<minecraft:light_weighted_pressure_plate>, <appliedenergistics2:item.ItemMultiMaterial:22>, <minecraft:light_weighted_pressure_plate>],
+  [<minecraft:light_weighted_pressure_plate>, <ore:circuitTtwo>, <minecraft:light_weighted_pressure_plate>],
   [<minecraft:light_weighted_pressure_plate>, <Mekanism:BasicBlock:10>, <minecraft:light_weighted_pressure_plate>]]);
   
 #Harder recipe for mundane turtle

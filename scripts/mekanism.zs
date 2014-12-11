@@ -8,8 +8,8 @@ recipes.addShaped(<Mekanism:AtomicDisassembler:*>,
 #Making the recipe for the Digital Miner harder
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.addShaped(<Mekanism:MachineBlock:4>,
- [[<Mekanism:ControlCircuit:3>, <minecraft:enchanted_book>.withTag({ench: [{id: 33 as short, lvl: 1 as short}]}), <Mekanism:ControlCircuit:3>],
-  [<Botania:pistonRelay>, <Mekanism:Robit:1>.withTag({electricity: 100000.0}), <Botania:pistonRelay>],
+ [[<Mekanism:ControlCircuit:3>, <Mekanism:AtomicDisassembler:*>, <Mekanism:ControlCircuit:3>],
+  [<funkylocomotion:pusher>, <Mekanism:Robit:1>.withTag({electricity: 100000.0}), <funkylocomotion:pusher>],
   [<Mekanism:MachineBlock:11>, <ThermalExpansion:Frame:3>, <Mekanism:MachineBlock:11>]]);
 
 #Making the recipe for the Solar Panel harder
@@ -36,6 +36,6 @@ recipes.addShaped(<MekanismGenerators:Generator:5>,
 #Making the recipe for the Wind Turbine harder
 recipes.remove(<MekanismGenerators:Generator:6>);
 recipes.addShaped(<MekanismGenerators:Generator:6>,
- [[null, <Mariculture:turbine_aluminum>, null],
-  [<ore:ingotAluminum>, <arsmagica2:essence:2>, <ore:ingotAluminum>],
+ [[null, <Mariculture:turbine_titanium>, null],
+  [<ore:ingotAluminum>, <BigReactors:BRTurbinePart:4>, <ore:ingotAluminum>],
   [<Mekanism:EnergyTablet:*>, <Mekanism:ControlCircuit:2>, <Mekanism:EnergyTablet:*>]]);

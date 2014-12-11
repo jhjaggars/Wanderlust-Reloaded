@@ -171,7 +171,7 @@ recipes.addShaped(<harvestcraft:watergarden>,
   
 #Tripling the amount of salt you get from fresh water
 recipes.remove(<harvestcraft:saltItem>);
-recipes.addShaped(<harvestcraft:saltItem> * 3, [[<harvestcraft:freshwaterItem>]]);
+recipes.addShapeless(<harvestcraft:saltItem> * 1, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]);
 
 #OreDict for Flour
 val flour = <ore:flour>;
@@ -215,13 +215,15 @@ recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<Mariculture:fluids:30>]
 #Crop Recipe for Bamboo Shot
 recipes.addShapeless(<harvestcraft:pambambooshootCrop>, [<harvestcraft:bambooshootItem>]);  
 
-
-
-
-
-
-
-
+#Compability for Barley
+recipes.addShapeless(<harvestcraft:flourItem>, [<harvestcraft:mortarandpestleItem>, <Natura:barleyFood>]);  
+ #Adjustment of Wheat Storage Blocks
+ recipes.removeShaped(<minecraft:wheat>);
+ recipes.addShapeless(<minecraft:wheat> * 9, [<minecraft:hay_block>]);
+ recipes.addShapeless(<minecraft:wheat> * 2, [<TabulaRasa:RasaBlock5:9>, <TabulaRasa:RasaBlock5:9>, <TabulaRasa:RasaBlock5:9>]);
+ #End
+recipes.addShapeless(<harvestcraft:barleyItem>, [<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]);  
+recipes.addShapeless(<harvestcraft:flourItem>, [<harvestcraft:mortarandpestleItem>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]);  
 
 
 

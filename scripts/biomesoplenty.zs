@@ -70,6 +70,23 @@ recipes.addShaped(<BiomesOPlenty:biomeBlock>,
 #Quicksand into Sandy Glass (For you deacan <3)
 furnace.addRecipe(<ExtraUtilities:decorativeBlock1:9>, <BiomesOPlenty:mud:1>);
 
+#Appropriate recipes for Hive Blocks
+ #Empty
+ recipes.remove(<BiomesOPlenty:hive:2>);
+ recipes.addShaped(<BiomesOPlenty:hive:2>,
+  [[<BiomesOPlenty:misc:2>, <BiomesOPlenty:misc:2>, null],
+   [<BiomesOPlenty:misc:2>, <BiomesOPlenty:misc:2>, null]]);
+ #Half filled
+ recipes.remove(<BiomesOPlenty:hive>);
+ recipes.addShaped(<BiomesOPlenty:hive>,
+  [[<BiomesOPlenty:misc:2>, <BiomesOPlenty:misc:2>, null],
+   [<BiomesOPlenty:food:9>, <BiomesOPlenty:misc:2>, null]]);
+ #Filled
+ recipes.remove(<BiomesOPlenty:hive:3>);
+ recipes.addShaped(<BiomesOPlenty:hive:3>,
+  [[<BiomesOPlenty:food:9>, <BiomesOPlenty:food:9>, null],
+   [<BiomesOPlenty:food:9>, <BiomesOPlenty:food:9>, null]]);
+
 
 
 

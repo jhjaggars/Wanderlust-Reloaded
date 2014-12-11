@@ -8,5 +8,12 @@ recipes.remove(<battlegear2:dagger.iron>);
 recipes.addShaped(<battlegear2:dagger.iron>,
  [[null, <minecraft:iron_ingot>, null],
   [null, <battlegear2:spear.wood>, null]]);
+  
+#Balance for Chains
+recipes.remove(<battlegear2:chain>);
+recipes.addShaped(<battlegear2:chain> * 3,
+ [[null, <ore:ingotSteel>, null],
+  [null, <ore:ingotSteel>, null]]);
+
  
   

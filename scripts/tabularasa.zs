@@ -238,17 +238,13 @@
   [<TabulaRasa:RasaBlock5:4>, <TabulaRasa:RasaBlock5:4>, <TabulaRasa:RasaBlock5:4>]]);  
  
 #Recipes for Thatch and Straw
-recipes.addShaped(<TabulaRasa:RasaBlock5:8> * 8,
+recipes.addShaped(<TabulaRasa:RasaBlock5:8> * 4,
  [[<minecraft:wheat>, <ore:stickWood>, <minecraft:wheat>],
   [<ore:stickWood>, null, <ore:stickWood>],
   [<minecraft:wheat>, <ore:stickWood>, <minecraft:wheat>]]);
 
 recipes.addShaped(<TabulaRasa:RasaBlock5:9> * 3,
  [[<minecraft:wheat>, <minecraft:wheat>, null]]);  
- 
-recipes.addShaped(<minecraft:wheat> * 2,
- [[<TabulaRasa:RasaBlock5:9>, <TabulaRasa:RasaBlock5:9>, <TabulaRasa:RasaBlock5:9>]]); 
- 
 
 #Recipe for Charcoal Chunk
 recipes.addShaped(<TabulaRasa:RasaBlock0:7> * 4,
@@ -291,7 +287,7 @@ recipes.addShapeless(<TabulaRasa:RasaBlock5:12> * 4, [<Thaumcraft:blockCosmeticS
 #Recipe for Foreign Object
 recipes.addShaped(<TabulaRasa:RasaItem0:3>,
 [[<HardcoreEnderExpansion:stardust>, <appliedenergistics2:item.ItemMultiMaterial:45>, <HardcoreEnderExpansion:stardust>],
- [<appliedenergistics2:item.ItemMultiMaterial:45>, <arsmagica2:itemOre:6>, <appliedenergistics2:item.ItemMultiMaterial:45>],
+ [<appliedenergistics2:item.ItemMultiMaterial:45>, <ThaumicTinkerer:kamiResource:6>, <appliedenergistics2:item.ItemMultiMaterial:45>],
  [<HardcoreEnderExpansion:stardust>, <appliedenergistics2:item.ItemMultiMaterial:45>, <HardcoreEnderExpansion:stardust>]]);
  
 #Liquid Tranposing Foreign Object

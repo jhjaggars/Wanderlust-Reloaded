@@ -3,5 +3,7 @@ mods.thaumcraft.Arcane.addShapeless("ASPECTS", <HardcoreEnderExpansion:stardust>
 
 #Compatility between Endermen Heads
   recipes.addShapeless(<EnderIO:blockEndermanSkull>, [<HardcoreEnderExpansion:enderman_head>]);  
-    recipes.addShapeless(<HardcoreEnderExpansion:enderman_head>, [<IguanaTweaksTConstruct:skullItem>]);  
-	  recipes.addShapeless(<IguanaTweaksTConstruct:skullItem>, [<EnderIO:blockEndermanSkull>]);  
+  recipes.addShapeless(<HardcoreEnderExpansion:enderman_head>, [<EnderIO:blockEndermanSkull>]);
+  
+#	  recipes.addShapeless(<IguanaTweaksTConstruct:skullItem:0>, [<HardcoreEnderExpansion:enderman_head>]);  
+	  
