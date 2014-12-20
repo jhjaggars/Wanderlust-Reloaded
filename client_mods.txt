@@ -1,5 +1,4 @@
 These mods need to be removed from the server.zip:
--EiraIRC
 -Inventory Tweaks
 -Journeymap
 -MineMenu
