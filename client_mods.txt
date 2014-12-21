@@ -6,4 +6,8 @@ These mods need to be removed from the server.zip:
 -NEIAddons
 -TiC Tooltips
 -WAILA Harvestability
+<<<<<<< HEAD
 -WTP
+=======
+-WTP
+>>>>>>> origin/master
