@@ -1,5 +1,4 @@
 These mods need to be removed from the server.zip:
--EiraIRC
 -Inventory Tweaks
 -Journeymap
 -MineMenu
@@ -7,4 +6,4 @@ These mods need to be removed from the server.zip:
 -NEIAddons
 -TiC Tooltips
 -WAILA Harvestability
--WTF
+-WTP

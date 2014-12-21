@@ -1,0 +1,60 @@
+{
+    "items":
+    [
+        {
+            "name":"Buttercream Frosting",
+            "textureName":"piping_buttercreamfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Cranberry Frosting",
+            "textureName":"piping_cranberryfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Berry Frosting",
+            "textureName":"piping_berryfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Rose Frosting",
+            "textureName":"piping_rosefrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Chocolate Frosting",
+            "textureName":"piping_chocolatefrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Cookie Dough Frosting",
+            "textureName":"piping_cookiedoughfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Honey Vanilla Frosting",
+            "textureName":"piping_honeyvanillafrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Lemon Curd Frosting",
+            "textureName":"piping_lemoncurdfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Eggnog Frosting",
+            "textureName":"piping_eggnogfrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Mana Frosting",
+            "textureName":"piping_manafrosting",
+            "creativeTab":"Frosting"
+        },
+        {
+            "name":"Balanced Frosting",
+            "textureName":"piping_balancedfrosting",
+            "creativeTab":"Frosting"
+        }
+    ]
+}

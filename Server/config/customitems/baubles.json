@@ -1,0 +1,157 @@
+{
+    "blocks":
+    [
+        {
+            "name": "Swirly Beige Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_swirly_bottom_beige",
+                "ypos":"bauble_swirly_top_beige",
+                "zneg":"bauble_swirly_side_beige",
+                "zpos":"bauble_swirly_side_beige",
+                "xneg":"bauble_swirly_side_beige",
+                "xpos":"bauble_swirly_side_beige"
+            }
+        },
+        {
+            "name": "Glitter Beige Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_glitter_bottomside_beige",
+                "ypos":"bauble_glitter_top_beige",
+                "zneg":"bauble_glitter_bottomside_beige",
+                "zpos":"bauble_glitter_bottomside_beige",
+                "xneg":"bauble_glitter_bottomside_beige",
+                "xpos":"bauble_glitter_bottomside_beige"
+            }
+        },
+        {
+            "name": "Swirly Red Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_swirly_bottom_red",
+                "ypos":"bauble_swirly_top_red",
+                "zneg":"bauble_swirly_side_red",
+                "zpos":"bauble_swirly_side_red",
+                "xneg":"bauble_swirly_side_red",
+                "xpos":"bauble_swirly_side_red"
+            }
+        },
+        {
+            "name": "Glitter Red Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_glitter_bottomside_red",
+                "ypos":"bauble_glitter_top_red",
+                "zneg":"bauble_glitter_bottomside_red",
+                "zpos":"bauble_glitter_bottomside_red",
+                "xneg":"bauble_glitter_bottomside_red",
+                "xpos":"bauble_glitter_bottomside_red"
+            }
+        },
+        {
+            "name": "Swirly Gold Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_swirly_bottom_gold",
+                "ypos":"bauble_swirly_top_gold",
+                "zneg":"bauble_swirly_side_gold",
+                "zpos":"bauble_swirly_side_gold",
+                "xneg":"bauble_swirly_side_gold",
+                "xpos":"bauble_swirly_side_gold"
+            }
+        },
+        {
+            "name": "Glitter Gold Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_glitter_bottomside_gold",
+                "ypos":"bauble_glitter_top_gold",
+                "zneg":"bauble_glitter_bottomside_gold",
+                "zpos":"bauble_glitter_bottomside_gold",
+                "xneg":"bauble_glitter_bottomside_gold",
+                "xpos":"bauble_glitter_bottomside_gold"
+            }
+        },
+        {
+            "name": "Swirly Silver Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_swirly_bottom_silver",
+                "ypos":"bauble_swirly_top_silver",
+                "zneg":"bauble_swirly_side_silver",
+                "zpos":"bauble_swirly_side_silver",
+                "xneg":"bauble_swirly_side_silver",
+                "xpos":"bauble_swirly_side_silver"
+            }
+        },
+        {
+            "name": "Glitter Silver Bauble", 
+            "creativeTab":"Christmas Baubles",		
+            "material": "glass",  
+            "stepSound": "glass",      
+            "isOpaque": true,			
+            "hardness": 0.3,
+            "resistance": 2.5,
+            "lightLevel": 1.0,
+            "harvestLevel": 0,               
+            "multipleTextures":{
+                "yneg":"bauble_glitter_bottomside_silver",
+                "ypos":"bauble_glitter_top_silver",
+                "zneg":"bauble_glitter_bottomside_silver",
+                "zpos":"bauble_glitter_bottomside_silver",
+                "xneg":"bauble_glitter_bottomside_silver",
+                "xpos":"bauble_glitter_bottomside_silver"
+            }
+        }
+    ]
+}

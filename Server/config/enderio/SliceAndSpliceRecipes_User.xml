@@ -1,0 +1,19 @@
+<SliceAndSpliceRecipes>
+  <recipeGroup name="EnderIO">
+    <recipe name="Tormented Enderman Head 2" energyCost="20000">
+       <!-- Has different name so it adds new recipe because you can't have two items in the same slot like in Vat recipes-->
+      <input> 
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="7" slot="0"/>  
+         <!-- Added HardcoreEnderExpansion Enderman head to recipe -->    
+        <itemStack modID="HardcoreEnderExpansion" itemName="enderman_head" itemMeta="0" slot="1"/>  
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="7" slot="2"/>
+        <itemStack modID="minecraft" itemName="potion" slot="3"/>        
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="0" slot="4"/>        
+        <itemStack modID="minecraft" itemName="potion" slot="5"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockEndermanSkull" itemMeta="2"/> 
+      </output>
+    </recipe>
+  </recipeGroup>
+</SliceAndSpliceRecipes>

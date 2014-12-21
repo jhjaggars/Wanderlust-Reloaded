@@ -1,0 +1,180 @@
+{
+    "foods":
+    [
+	    {
+	        "name":"Festive Potatoes",
+	        "textureName":"savory_festivepotatoes",
+               "healAmount": 17,
+	        "saturationModifier":2.0,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Black Forest Cake",
+	        "textureName":"cake_blackforest",
+               "healAmount": 16,
+	        "saturationModifier":1.7,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Raspberry Lava Cake",
+	        "textureName":"cake_lava",
+               "healAmount": 12,
+	        "saturationModifier":1.3,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Cupcake Base",
+	        "textureName":"cupcake_base",
+               "healAmount": 4,
+	        "saturationModifier":0.5,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Buttercream Frosted Cupcake",
+	        "textureName":"cupcake_buttercreamfrosting",
+               "healAmount": 14,
+	        "saturationModifier":1.3,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Cranberry Frosted Cupcake",
+	        "textureName":"cupcake_cranberryfrosting",
+               "healAmount": 16,
+	        "saturationModifier":1.5,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Berry Frosted Cupcake",
+	        "textureName":"cupcake_berryfrosting",
+               "healAmount": 16,
+	        "saturationModifier":1.5,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Rose Frosted Cupcake",
+	        "textureName":"cupcake_rosefrosting",
+               "healAmount": 16,
+	        "saturationModifier":1.5,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Chocolate Frosted Cupcake",
+	        "textureName":"cupcake_chocolatefrosting",
+               "healAmount": 18,
+	        "saturationModifier":1.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Cookie Dough Frosted Cupcake",
+	        "textureName":"cupcake_cookiedoughfrosting",
+               "healAmount": 18,
+	        "saturationModifier":1.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Honey Swirl Vanilla Frosted Cupcake",
+	        "textureName":"cupcake_honeyvanillafrosting",
+               "healAmount": 18,
+	        "saturationModifier":1.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Lemoncurd Frosted Cupcake",
+	        "textureName":"cupcake_lemoncurdfrosting",
+               "healAmount": 18,
+	        "saturationModifier":1.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Eggnog Frosted Cupcake",
+	        "textureName":"cupcake_eggnogfrosting",
+               "healAmount": 18,
+	        "saturationModifier":1.7,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Mana Cupcake",
+	        "textureName":"cupcake_manafrosting",
+               "healAmount": 19,
+	        "saturationModifier":1.7,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Balanced Cupcake",
+	        "textureName":"cupcake_balancedfrosting",
+               "healAmount": 20,
+	        "saturationModifier":1.8,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Churros",
+	        "textureName":"cookie_churros",
+               "healAmount": 7,
+	        "saturationModifier":0.3,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Zimtstern",
+	        "textureName":"cookie_zimtstern",
+               "healAmount": 6,
+	        "saturationModifier":0.4,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Vanillekipferl",
+	        "textureName":"cookie_vanillekipferl",
+               "healAmount": 6,
+	        "saturationModifier":0.4,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Candy Cane",
+	        "textureName":"candy_cane",
+               "healAmount": 4,
+	        "saturationModifier":0.3,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Dark Chocolate Fudge",
+	        "textureName":"candy_darkchocolatefudge",
+               "healAmount": 6,
+	        "saturationModifier":0.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"White Chocolate Fudge",
+	        "textureName":"candy_whitechocolatefudge",
+               "healAmount": 7,
+	        "saturationModifier":0.6,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Hot Chocolate",
+	        "textureName":"mug_hotchocolate",
+               "healAmount": 12,
+	        "saturationModifier":1.2,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Mulled Wine",
+	        "textureName":"mug_mulledwine",
+               "healAmount": 11,
+	        "saturationModifier":1.2,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Eggnog",
+	        "textureName":"mug_eggnog",
+               "healAmount": 15,
+	        "saturationModifier":1.5,		
+            "creativeTab": "Festive Food"	
+	    },
+	    {
+	        "name":"Champagne",
+	        "textureName":"glass_champagne",
+               "healAmount": 6,
+	        "saturationModifier":0.8,		
+            "creativeTab": "Festive Food"	
+	    }
+    ]
+}

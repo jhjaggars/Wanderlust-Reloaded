@@ -1,0 +1,16 @@
+{
+    "creativeTabs":[
+        {
+            "tabLabel":"Festive Food",
+            "iconItem":"customitems:zimtstern"                
+        },
+        {
+            "tabLabel":"Frosting",
+            "iconItem":"customitems:eggnog_frosting"                
+        },
+        {
+            "tabLabel":"Christmas Baubles",
+            "iconItem":"customitems:swirly_red_bauble"                
+        }
+    ]
+}
