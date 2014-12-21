@@ -1,13 +1,18 @@
-These mods need to be removed from the server.zip:
--Inventory Tweaks
--Journeymap
--MineMenu
--NEIPlugins(Integration soon)
--NEIAddons
--TiC Tooltips
--WAILA Harvestability
-<<<<<<< HEAD
--WTP
-=======
--WTP
->>>>>>> origin/master
+Mods that need to be disabled once packing up final version:
+ Client and Server:
+ -AdminCommandToolbox
+ -Bluepower
+ -ProjectRed/Blue
+ -WorldEdit Forge
+ -Industrialcraft 2
+  ->Nuclear Control 2
+  ->Gravisuite
+ -MobiusCore
+  ->Opis
+ -YABM
+ -Modular Turrets
+ -iChunUtils
+  ->Hats
+ 
+ Client: 
+ -Journeymap
